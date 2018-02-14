@@ -1,0 +1,499 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    departureStation="Farringdon"
+    destination="destination"
+    operator="operator"
+    origin="origin"
+    stations={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="lineContainer"
+>
+          <div
+                    className="lineIcon"
+          >
+                    <i
+                              className="material-icons md-48"
+                    >
+                              train
+                    </i>
+          </div>
+          <div>
+                    <span
+                              className="lineHighlight"
+                    >
+                              Farringdon
+                    </span>
+                    <br />
+                    to 
+                    <span
+                              className="lineHighlight"
+                    >
+                              destination
+                               
+                    </span>
+                    <br />
+                    <span
+                              className="lineInfo"
+                    >
+                              Operated by 
+                              operator
+                    </span>
+          </div>
+</div>,
+        <div>
+          
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="lineIcon"
+>
+              <i
+                            className="material-icons md-48"
+              >
+                            train
+              </i>
+</div>,
+            <div>
+              <span
+                            className="lineHighlight"
+              >
+                            Farringdon
+              </span>
+              <br />
+              to 
+              <span
+                            className="lineHighlight"
+              >
+                            destination
+                             
+              </span>
+              <br />
+              <span
+                            className="lineInfo"
+              >
+                            Operated by 
+                            operator
+              </span>
+</div>,
+          ],
+          "className": "lineContainer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48"
+>
+                train
+</i>,
+              "className": "lineIcon",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "train",
+                "className": "material-icons md-48",
+              },
+              "ref": null,
+              "rendered": "train",
+              "type": "i",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="lineHighlight"
+>
+                  Farringdon
+</span>,
+                <br />,
+                "to ",
+                <span
+                  className="lineHighlight"
+>
+                  destination
+                   
+</span>,
+                <br />,
+                <span
+                  className="lineInfo"
+>
+                  Operated by 
+                  operator
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Farringdon",
+                  "className": "lineHighlight",
+                },
+                "ref": null,
+                "rendered": "Farringdon",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              "to ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "destination",
+                    " ",
+                  ],
+                  "className": "lineHighlight",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "destination",
+                  " ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Operated by ",
+                    "operator",
+                  ],
+                  "className": "lineInfo",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Operated by ",
+                  "operator",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="lineContainer"
+>
+            <div
+                        className="lineIcon"
+            >
+                        <i
+                                    className="material-icons md-48"
+                        >
+                                    train
+                        </i>
+            </div>
+            <div>
+                        <span
+                                    className="lineHighlight"
+                        >
+                                    Farringdon
+                        </span>
+                        <br />
+                        to 
+                        <span
+                                    className="lineHighlight"
+                        >
+                                    destination
+                                     
+                        </span>
+                        <br />
+                        <span
+                                    className="lineInfo"
+                        >
+                                    Operated by 
+                                    operator
+                        </span>
+            </div>
+</div>,
+          <div>
+            
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="lineIcon"
+>
+                <i
+                                className="material-icons md-48"
+                >
+                                train
+                </i>
+</div>,
+              <div>
+                <span
+                                className="lineHighlight"
+                >
+                                Farringdon
+                </span>
+                <br />
+                to 
+                <span
+                                className="lineHighlight"
+                >
+                                destination
+                                 
+                </span>
+                <br />
+                <span
+                                className="lineInfo"
+                >
+                                Operated by 
+                                operator
+                </span>
+</div>,
+            ],
+            "className": "lineContainer",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48"
+>
+                  train
+</i>,
+                "className": "lineIcon",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "train",
+                  "className": "material-icons md-48",
+                },
+                "ref": null,
+                "rendered": "train",
+                "type": "i",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="lineHighlight"
+>
+                    Farringdon
+</span>,
+                  <br />,
+                  "to ",
+                  <span
+                    className="lineHighlight"
+>
+                    destination
+                     
+</span>,
+                  <br />,
+                  <span
+                    className="lineInfo"
+>
+                    Operated by 
+                    operator
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Farringdon",
+                    "className": "lineHighlight",
+                  },
+                  "ref": null,
+                  "rendered": "Farringdon",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                "to ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "destination",
+                      " ",
+                    ],
+                    "className": "lineHighlight",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "destination",
+                    " ",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Operated by ",
+                      "operator",
+                    ],
+                    "className": "lineInfo",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Operated by ",
+                    "operator",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

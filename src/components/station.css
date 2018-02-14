@@ -1,0 +1,60 @@
+
+.stationContainer {
+    display: flex;
+    flex-flow: row;
+    height: 50px;
+}
+.stationCircle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid;
+    position: relative;
+    border-color: #999;
+}
+.stationCircle:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    border: 2px solid;
+    border-width: 0 0 0 1px;
+    width: 2px;
+    height: 40px;
+}
+.stationFilled {
+    background-color: black;
+    border-color: black;
+}
+.stationLastCircle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid;
+    position: relative;
+    background-color: black;
+    border-color: black;
+}
+.stationTrainHere {
+    left: 60px;
+    height: 20px;
+    width: 25px;
+    border-radius: 50%;
+    border: 0.5px solid;
+    position: relative;
+    background-color: #3FBF7F;
+    border-color: black;
+    color: black;
+    padding-top: 5px;
+    text-align: center;
+    z-index: 5;
+}
+.stationHighlight { color: black;}
+.stationTime { width: 65px; font-size: 18px;}
+.stationName { font-weight: bold; }
+.stationTimeInfo { font-size: 13px;}
+.stationInfo {
+    padding-left: 20px;
+}

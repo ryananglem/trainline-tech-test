@@ -1,0 +1,16 @@
+.lineContainer {
+    display: flex;
+    height: 80px;  
+}
+.lineHighlight {
+    font-weight: bold;
+    color: black;
+}
+.lineInfo {
+    color: #999;
+}
+.lineIcon {
+    width: 85px;
+    text-align: center;
+    color: black;
+}
